@@ -1,0 +1,10 @@
+list1=[1,2,3,4,5,6,7]
+list2=list1[2:5]
+print(list2)
+list1.insert(1,9)
+print(list1)
+print(len(list1))
+list3=list1+list2
+print(list3)
+tup=(55,66,77)
+print(tup[1])
