@@ -1,0 +1,29 @@
+<html>
+<head>
+<script type="text/javascript">
+function test(){
+x=document.getElementById("res").value;
+
+if(x % 3 == 0 || x % 7 == 0)
+{
+document.getElementById("result").innerHTML=true;
+}
+else
+{
+document.getElementById("result").innerHTML=false;
+}
+if(typeof x=='string')
+alert("error input");
+		}
+
+</script>
+</head>
+<body>
+enter the number:
+<form>
+<input id="res" type="text"><br>
+<input type="button" onClick="test()" value="Submit"><br>
+</form>
+<p id="result"></p>
+</body>
+</html>

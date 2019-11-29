@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        hos={name:"ramaiah",loc:"bel road"};
+        pat={name:"amar",aad:"5556 5678 7890",tests:['pet','mri']}
+        function hospital()
+        {
+            var x="hospital name: "+hos.name+"<br>location:"+hos.loc;
+            document.getElementById("res1").innerHTML=x;
+
+        }
+        function patient()
+        {
+            var y="patient name:"+pat.name+"<br>aadhar number:"+pat.aad+"<br>tests:"+pat.tests;
+            document.getElementById("res2").innerHTML=y;
+            document.getElementById("pdet").style.color="red";
+        }
+        </script>
+    </head>
+    <body onload=hospital()>
+        <p id="res1"></p>
+        
+        <p id="pdet" onmouseover="patient()">patient details</p>
+        <p id="res2"></p>
+    </body>
+</html>

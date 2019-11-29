@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type="text/javascript">
+function count()
+{
+	str=document.getElementById("res").value;
+	var s=str.split(" ");
+	var longest=0;
+	var i;
+	var word=null;
+	for(i=0;i<s.length;i++)
+		{
+		if(longest<s[i].length)
+		{
+			longest=s[i].length;
+			word=s[i];
+		}
+		}
+	result1=word;
+	result2=word.length;
+	document.getElementById("demo").innerHTML=result1;
+	document.getElementById("demo1").innerHTML=result2;
+}
+</script>
+</head>
+<body>
+enter the string:
+<form>
+<input id="res" type="text"><br>
+<input type="button" onClick="count()" value="Submit"><br>
+</form>
+<p id="demo"></p>
+<p id="demo1"></p>
+</body>
+</html>	
