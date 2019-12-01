@@ -70,8 +70,15 @@ Python and JavaScript - Shopping Cart Application: Design a simple Shopping Cart
 Python for Data Science - Data Science and Machine Learning on Boston Housing dataset - Download Boston Housing dataset from online archives. Load the dataset into one of the data structures (NumPy or Pandas). Visualize the dataset (Features vs price plot) using matplotlib. Apply Linear Regression (Source to learn:scikit) on the loaded dataset to predict prices of new data.
 
  # SCREENSHOTS
- 
- 
+ PYTHON: 
+![alt tag](https://github.com/timaddg/SL_LAB/blob/master/Screenshot%20(1).png) 
+
+HTML:
+![alt tag](https://github.com/timaddg/SL_LAB/blob/master/Screenshot%20(2).png)
+
+
+
+
  
  
  
