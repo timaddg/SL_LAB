@@ -71,7 +71,10 @@ Python for Data Science - Data Science and Machine Learning on Boston Housing da
 
  # SCREENSHOTS
  PYTHON: 
-![alt tag](https://github.com/timaddg/SL_LAB/blob/master/Screenshot%20(1).png) 
+![alt tag](https://github.com/timaddg/SL_LAB/blob/master/Screenshot%20(1).png)
+
+
+
 
 HTML:
 ![alt tag](https://github.com/timaddg/SL_LAB/blob/master/Screenshot%20(2).png)
